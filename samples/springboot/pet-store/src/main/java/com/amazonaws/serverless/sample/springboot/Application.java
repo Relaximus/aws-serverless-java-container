@@ -28,7 +28,7 @@ public class Application extends SpringBootServletInitializer {
     String message = "";
 
     /*
-     * Create required HandlerMapping, to avoid several default HandlerMapping instances being created
+     * Create required HandlerMapping, to avoid several default HandlerMapping instances being created.
      */
     @Bean
     public HandlerMapping handlerMapping() {
